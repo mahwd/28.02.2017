@@ -1,0 +1,38 @@
+html  {
+margin: 0;
+padding: 0;
+}
+body {
+margin: 0; padding: 0;
+}
+.layout {
+  border: 15px solid black;
+  width: 50vw;
+  height: 90vh;
+  margin: 15px auto;
+  border-image: url(../img/border.jpg);
+  border-image-repeat: repeat;
+  border-image-width: 103%;
+
+}
+.block-white {
+  width:6.25vw;
+  height: 11.25vh;
+  box-sizing: border-box;
+  border: 0;
+  background:#fff;
+}
+.block-black {
+  width:6.25vw;
+  height: 11.25vh;
+  box-sizing: border-box;
+  border: 0;
+  background-image: url(../img/wood.jpg);
+  /*background-size: cover;*/
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
